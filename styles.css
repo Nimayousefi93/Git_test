@@ -66,4 +66,9 @@ footer {
 .dots { position: absolute; left: 50%; transform: translateX(-50%); bottom: 14px; display:flex; gap:8px; z-index:3; }
 .dots button { width:10px; height:10px; border-radius:50%; border:none; background: rgba(255,255,255,0.5); cursor:pointer; padding:0; }
 .dots button.active { background: #fff; box-shadow: 0 0 0 4px rgba(255,255,255,0.08); }
+.slide.slide-1 { background-image: url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80'); }
+.slide.slide-2 { background-image: url('https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1600&q=80'); }
+.slide.slide-3 { background-image: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80'); }
+.slide.slide-4 { background-image: url('https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=1600&q=80'); }
+.slide.slide-5 { background-image: url('https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=1600&q=80'); }
 @media (max-width:700px){ .slider{height:300px} .caption{font-size:1.1rem;padding:16px} }
